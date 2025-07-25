@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Register Page
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "registerStyle.css">
+    </head>
+    <body>
+        <div class="register-slot">
+             <form class="form">
+                <div class="register-text-container"><p class="register-text">Register Page</p></div>
+                <div class="email-input">
+                    <div class="images-container"><img src="./sources/name.svg" class="images"></div>
+                    <input type="text" id="name" class="name" required placeholder="Full Name"></div>
+                <div class="email-input">
+                    <div class="images-container"><img src="./sources/email.svg" class="images"></div>
+                    <input type="email" id="email" class="email" required placeholder="Email"></div>
+                <div class="email-input">
+                    <div class="images-container"><img src="./sources/pass.svg" class="images"></div>
+                    <input type="password" id="password" class="pass" required placeholder="password"></div>
+                <div class="button-div"><button type="submit" class="Submit-Button">Submit</button></div>
+                <div class="message"></div>
+                <div><p class="login">have an account?<a href="/index.html">sign in</a></p></div>
+             </form>
+        </div>
+         <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        </script>
+        <script src="./register.js"> </script>
+    </body>
+</html>

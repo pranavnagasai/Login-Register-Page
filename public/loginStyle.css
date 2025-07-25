@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(209, 209, 208);
+    align-items: center;
+    background-image: url('background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
+
+.login-slot{
+    background-color: white;
+    opacity: 90%;
+    height: auto;
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    border-radius: 75px;
+    gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-text{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.email-input{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.message{
+    display:flex;
+    justify-content: center;
+}
+.button-div{
+    display:flex;
+    margin: 10px;
+    justify-content: center;
+}
+.Submit-Button{
+    display:inline;
+    width: 150px;
+    height: 40px;
+
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(89, 177, 249);
+    color: white;
+    transition: box-shadow 0.5s ease;
+    transition: background-color 0s ease;
+}
+.Submit-Button:hover{
+box-shadow: 0 0 5px 5px #ccc;
+}
+.Submit-Button:active{
+    background-color: rgb(72, 138, 192);
+}
+.email,.pass{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid gray;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    transition: box-shadow 0.3s ease;
+    transition: border 0.3s ease-in;
+    outline:none;
+}
+
+.email:hover,.pass:hover{
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.1);
+}
+
+.email:focus,.pass:focus{
+    border:1px solid rgb(6, 6, 6);
+}
+
+/* .email:valid{
+    border: 1px solid rgb(169, 255, 167);
+} */
+
+.images-container{
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    place-items: center;
+    opacity: 65%;
+    border:  1px solid rgb(128, 128, 128);
+    border-right: none;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.images{
+    width: 30px;
+    height: 30px;
+}
+.text-gen{
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.success{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 255, 0);
+}
+.failed{
+    font-family: 'Roboto', sans-serif;
+    color:red;
+}
